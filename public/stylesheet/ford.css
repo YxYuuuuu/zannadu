@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*头部*/
+.header-top{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    top: -10px;
+    background: url(../images/register-login/bg-image-clouds-guest.jpg);
+}
+header .icon:before{
+    top: 52px;
+}
+.header-logo{
+    margin-top: 25px;
+}
+
+/*主体*/
+.bannerBox{
+    width: 100%;height: 576px;background: url(../images/campaign/ford/ford_banner.jpg);background-size: cover;position: relative;
+}
+.logo{
+    position: absolute;top: 50px;left: 110px;
+}
+.des{
+    width: 39%;position: absolute;top: 100px;right: 100px;
+}
+.des img{
+    margin-bottom: 30px;
+}
+.des p{
+    font-size: 14px;color: white;margin-bottom: 30px;
+}
+.des span{
+    width: 200px;height: 50px;display: inline-block;background: #0068b7;color: white;line-height: 50px;text-align: center;cursor: pointer;
+}
+.bg-image-ford{
+    width: 100%;background: url("../images/campaign/ford/bg_image-z.jpg");text-align: center;
+}
+.videos{
+    width: 76%;margin: 50px auto;
+}
+.videoBox{
+    width: 98%;margin: 0 auto;
+}
+video{
+    margin-bottom: 40px;display: none;
+}
+.showVideo{
+    display: block;
+}
+.videosmallBox{
+    width: 100%;display: flex;justify-content: space-between;
+}
+.videosmallBox img{
+    cursor: pointer;
+}
+.blueBorder{
+    border: 5px solid #0068b7;
+}
+.wrapper{
+    width: 74%;overflow: hidden;margin: 50px auto;position: relative;
+}
+.focus{
+    position: relative;width: 74%;height: 580px;
+}
+.focus ul{
+    display: flex;position: absolute;width: 500%;
+}
+.focus ul p {
+    font-size: 14px;background: white;text-align: left;padding: 20px 100px;
+}
+.focus-btn{
+    display: flex;position: absolute;bottom: 100px;left: 45%;
+}
+
+.focus-btn span{
+    width: 35px;height: 5px;background: white;opacity: .4;margin-left: 50px;cursor: pointer;
+}
+.changeOpcity{
+    opacity: 1 !important;
+}
+.smallImgBox{
+    position: relative;padding-bottom:50px ;
+}
+.smallImgWrapper{
+    width: 74%;overflow:hidden ;margin: 50px auto;height: 380px;position: relative;
+}
+.swiper-wrapper{
+    width: 300%; height: 380px;display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center;position: absolute;top: 0;left: 0;
+}
+.swiper-wrapper li{
+    cursor: pointer;position: relative;
+}
+.swiper-wrapper li span{
+    display: inline-block;width: 100%;height:180px ;background: black url("../images/campaign/ford/mask.png") no-repeat center center ;position: absolute;top: 0;left: 0;opacity: .5;visibility: hidden;
+}
+.swiper-wrapper li:hover span{
+    visibility: visible;
+}
+.smallImgBox span{
+    width: 34px;height: 54px;position: absolute;top: 50%;display: inline-block;cursor: pointer;
+}
+.leftArrow{
+left: 109px;background: url("../images/campaign/ford/slide_arrow.png") no-repeat 0 0;
+}
+.rightArrow{
+    right: 109px;background: url("../images/campaign/ford/slide_arrow.png") no-repeat -36px 0;
+}

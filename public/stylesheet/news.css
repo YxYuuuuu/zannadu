@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*头部*/
+.header-top{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    top: -10px;
+    background: url(../images/register-login/bg-image-clouds-guest.jpg);
+}
+header .icon:before{
+    top: 52px;
+}
+.header-logo{
+    margin-top: 25px;
+}
+
+main{
+    width: 100%;background: url(../images/common/bg-image-clouds.jpg) no-repeat;background-size: cover;padding: 60px 0;
+}
+.wrap{
+    width: 74.2%;margin: 0 auto;display: flex;flex-wrap: wrap;justify-content: space-between;
+}
+.item{
+    width: 48%;
+}
+section:first-child{
+    width: 100%;
+}
+section img{
+    max-width: 490px;
+}
+section:first-child img{
+    max-width: 100%;
+}

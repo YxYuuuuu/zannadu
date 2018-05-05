@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><html class="no-js" > <!--<![endif]-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="赞那度官网,ZANADU官网,定制行程,海外自由行预订,别墅预订,精品酒店预订,高端酒店预订,邮轮旅行预订,VR虚拟现实,VR旅游">
+    <meta name="description" content="ZANADU赞那度官网，中国首屈一指的线上高端旅游服务平台和时尚生活方式媒体，为你度身打造赞品旅程，自由灵动的境外自由行，全球最美度假别墅短租，来自大航海时代的豪华邮轮之旅，世界顶级精品酒店预订，最清净美好的国内旅游线路，以及独一无二的VR虚拟旅行。">
+    <!--[if IE]-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <!--[end if]-->
+    <!--<base href="/" />-->
+    <!--表示从当前目录开始不用全部路径都写-->
+    <meta charset="UTF-8">
+    <title>【赞那度官网】高端旅游服务-高端线上旅行服务及生活方式媒体</title>
+    <link rel="stylesheet" href="plugin/normalize.css">
+    <link rel="stylesheet" href="stylesheet/index.css">
+    <link rel="stylesheet" href="stylesheet/common.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body style="overflow: auto">
+<header>
+    <!--轮播图-->
+    <div id="carousel-content">
+        <div id="imgs">
+            <div class="img show" data-idx = "0"></div>
+            <div class="img" data-idx = "1"></div>
+            <div class="img" data-idx = "2"></div>
+            <div class="img" data-idx = "3"></div>
+            <div class="img" data-idx = "4"></div>
+        </div>
+        <div class="idots">
+            <span class="idot active" data-idx = "0"></span>
+            <span class="idot" data-idx = "1"></span>
+            <span class="idot" data-idx = "2"></span>
+            <span class="idot" data-idx = "3"></span>
+            <span class="idot" data-idx = "4"></span>
+        </div>
+        <div class="btns">
+            <div class="btn prev"></div>
+            <div class="btn next"></div>
+        </div>
+    </div>
+    <div class="header-top">
+        <div class="header-logo"></div>
+        <!--搜索栏-->
+        <form class="search" name="myform" method="post" action="">
+            <span class="icon"></span>
+            <input type="text" placeholder="目的地/酒店/游轮" name="hotelipt" id="hotelipt">
+            <input type="date"  name="date" class="date popup">
+            <input type="date"  name="date" class="date popup">
+            <button type="button"></button>
+        </form>
+    </div>
+    <!--导航-->
+    <nav id="nav">
+        <ul class="menu-list">
+            <li >
+                <a href="#" class="destination">目的地</a>
+                <div class="submenu-list-destination clearFix" id="submenu-list-destination">
+                    <div class="aim">
+                        <h3>目的地</h3>
+                        <ul>
+                            <li class="changecolor continent" data-submenuidx="0"><span class="delunderline classify">最受欢迎</span></li>
+                            <li data-submenuidx="1" class="continent"><span class="classify">亚洲</span></li>
+                            <li data-submenuidx="2" class="continent"><span class="classify">欧洲</span></li>
+                            <li data-submenuidx="3" class="continent"><span class="classify">非洲</span></li>
+                            <li data-submenuidx="4" class="continent"><span class="classify">北美洲</span></li>
+                            <li data-submenuidx="5" class="continent"><span class="classify">大洋洲</span></li>
+                            <li data-submenuidx="6" class="continent"><span class="classify">南极洲</span></li>
+                            <li data-submenuidx="7" class="continent"><span class="classify">南美洲</span></li>
+                        </ul>
+                    </div>
+                    <div class="site">
+                        <div data-submenuidx="0" class="on clearFix siteBox">
+                            <h3>最受欢迎</h3>
+                            <ul class="city clearFix">
+                                <li><a href="">日本</a></li>
+                                <li><a href="">马尔代夫</a></li>
+                                <li><a href="">夏威夷</a></li>
+                                <li><a href="">泰国</a></li>
+                                <li><a href="">南非</a></li>
+                                <li><a href="">芬兰</a></li>
+                                <li><a href="">冰岛</a></li>
+                                <li><a href="">挪威</a></li>
+                                <li><a href="">斐济</a></li>
+                                <li><a href="">斯里兰卡</a></li>
+                                <li><a href="">东非</a></li>
+                                <li><a href="">南部非洲</a></li>
+                                <li><a href="">东南亚与南亚</a></li>
+                                <li><a href="">大洋洲</a></li>
+                                <li><a href="">北欧</a></li>
+                                <li><a href="">中东与北非</a></li>
+                                <li><a href="">南极与北极</a></li>
+                                <li><a href="">云南</a></li>
+                                <li><a href="">浙江</a></li>
+                                <li><a href="">海南</a></li>
+                            </ul>
+                        </div>
+                        <div data-submenuidx="1" class="clearFix siteBox">
+                            <h3>亚洲</h3>
+                            <ul class="city">
+                                <li><a href="">中国</a></li>
+                                <li><a href="">阿联酋</a></li>
+                                <li><a href="">阿曼</a></li>
+                                <li><a href="">巴厘岛</a></li>
+                                <li><a href="">不丹</a></li>
+                                <li><a href="">菲律宾</a></li>
+                                <li><a href="">韩国</a></li>
+                                <li><a href="">柬埔寨</a></li>
+                                <li><a href="">卡塔尔</a></li>
+                                <li><a href="">老挝</a></li>
+                                <li><a href="">马尔代夫</a></li>
+                                <li><a href="">马来西亚</a></li>
+                                <li><a href="">缅甸</a></li>
+                                <li><a href="">尼泊尔</a></li>
+                                <li><a href="">普吉岛</a></li>
+                                <li><a href="">普吉岛</a></li>
+                                <li><a href="">日本</a></li>
+                                <li><a href="">斯里兰卡</a></li>
+                                <li><a href="">泰国</a></li>
+                                <li><a href="">新加坡</a></li>
+                                <li><a href="">印度</a></li>
+                                <li><a href="">印度尼西亚</a></li>
+                                <li><a href="">越南</a></li>
+                            </ul>
+                        </div>
+                        <div data-submenuidx="2" class="clearFix siteBox">
+                            <h3>欧洲</h3>
+                            <ul class="city">
+                                <li><a href="">爱尔兰</a></li>
+                                <li><a href="">冰岛</a></li>
+                                <li><a href="">丹麦</a></li>
+                                <li><a href="">德国</a></li>
+                                <li><a href="">俄罗斯</a></li>
+                                <li><a href="">法国</a></li>
+                                <li><a href="">芬兰</a></li>
+                                <li><a href="">荷兰</a></li>
+                                <li><a href="">黑山</a></li>
+                                <li><a href="">捷克</a></li>
+                                <li><a href="">摩纳哥</a></li>
+                                <li><a href="">挪威</a></li>
+                                <li><a href="">葡萄牙</a></li>
+                                <li><a href="">瑞士</a></li>
+                                <li><a href="">土耳其</a></li>
+                                <li><a href="">希腊</a></li>
+                                <li><a href="">西班牙</a></li>
+                                <li><a href="">意大利</a></li>
+                                <li><a href="">英国</a></li>
+                            </ul>
+                        </div>
+                        <div data-submenuidx="3" class="clearFix siteBox">
+                            <h3>非洲</h3>
+                            <ul class="city">
+                                <li><a href="">埃及</a></li>
+                                <li><a href="">博茨瓦纳</a></li>
+                                <li><a href="">肯尼亚</a></li>
+                                <li><a href="">毛里求斯</a></li>
+                                <li><a href="">摩洛哥</a></li>
+                                <li><a href="">纳米比亚</a></li>
+                                <li><a href="">南非</a></li>
+                                <li><a href="">塞舌尔</a></li>
+                                <li><a href="">坦桑尼亚</a></li>
+                                <li><a href="">乌干达</a></li>
+                            </ul>
+                        </div>
+                        <div data-submenuidx="4" class="clearFix siteBox">
+                            <h3>北美洲</h3>
+                            <ul class="city">
+                                <li><a href="">法属西印度群岛</a></li>
+                                <li><a href="">加拿大</a></li>
+                                <li><a href="">美国</a></li>
+                                <li><a href="">墨西哥</a></li>
+                                <li><a href="">英属特克斯和凯科斯群岛</a></li>
+                                <li><a href="">英属维尔京群岛</a></li>
+                            </ul>
+                        </div>
+                        <div data-submenuidx="5" class="clearFix siteBox">
+                            <h3>大洋洲</h3>
+                            <ul class="city">
+                                <li><a href="">澳大利亚</a></li>
+                                <li><a href="">大溪地</a></li>
+                                <li><a href="">法属波利尼西亚</a></li>
+                                <li><a href="">斐济</a></li>
+                                <li><a href="">美国</a></li>
+                                <li><a href="">新西兰</a></li>
+                            </ul>
+                        </div>
+                        <div data-submenuidx="6" class="clearFix siteBox">
+                            <h3>南极洲</h3>
+                            <ul class="city">
+                                <li><a href="">null</a></li>
+                            </ul>
+                        </div>
+                        <div data-submenuidx="7" class="clearFix siteBox">
+                            <h3>南美洲</h3>
+                            <ul class="city">
+                                <li><a href="">阿根廷</a></li>
+                                <li><a href="">巴哈马</a></li>
+                                <li><a href="">巴西</a></li>
+                                <li><a href="">古巴</a></li>
+                                <li><a href="">秘鲁</a></li>
+                                <li><a href="">墨西哥</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="products.html" class="route">预定行程</a>
+                <div class="submenu-list-route clearFix" id="submenu-list-route">
+                        <div class="route-left">
+                            <h3>预订行程</h3>
+                            <div class="route-left-wrap">
+                                <a href="#" class="route-left-info"><p>赞品旅程</p></a>
+                                <a href="#" class="route-left-info"><p>海外自由行</p></a>
+                                <a href="#" class="route-left-info"><p>轻奢小团</p></a>
+                                <a href="#" class="route-left-info"><p>大航海时代</p></a>
+                                <a href="#" class="route-left-info"><p>精品别墅</p></a>
+                                <a href="#" class="route-left-info"><p>精选酒店</p></a>
+                                <a href="#" class="route-left-info"><p>国内短假</p></a>
+                                <a href="#" class="route-left-info"><p>私人定制</p></a>
+                            </div>
+                        </div>
+                        <div class="route-right"></div>
+                </div>
+            </li>
+            <li><a href="#">折扣</a></li>
+            <li><a href="#">杂志</a></li>
+            <li><a href="#">旅行VR</a></li>
+            <li><a href="news.html">活动</a></li>
+        </ul>
+        <div class="register-login" id="register-login">
+            <a href="register.html" id="register-btn">注册</a>
+            <span>|</span>
+            <a href="login.html" id="login-btn">登录</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="products">
+        <h2>品介优选 Featured Products</h2>
+        <div class="content" id="product-content"></div>
+    </div>
+    <div class="bg-light-blue">
+        <div class="different-zanadu">
+            <div id="video-play">
+                <p>与众不同的ZANADU赞那度</p>
+            </div>
+            <div class="different-des">
+                <img src="../public/images/index/different-world-map.png" alt="">
+                <p>为确保带给您最赞的旅行体验，我们汇聚了全中国最精英的旅行专家团队为您服务。 每一位旅行顾问都有丰富的全球旅行经验，他们热情洋溢，细致入微，一对一为您提供的咨询， 致力于为您打造独一无二的旅行体验，符合您的个性、兴趣、品味、预算。且我们从来不在品质上妥协。</p>
+                <span>点击了解更多</span>
+            </div>
+        </div>
+        <div class="journey">
+            <div class="section-title">
+                <h2>赞品旅程 Independent Signature Journeys</h2>
+                <div class="more">
+                    <span></span>
+                    <p>更多赞品旅程</p>
+                </div>
+            </div>
+            <div id="journey-content" class="content"></div>
+        </div>
+        <div class="oversea">
+            <div class="section-title">
+                <h2>海外自由行 Oversea Getaways</h2>
+                <div class="more">
+                    <span></span>
+                    <p>更多海外自由行</p>
+                </div>
+            </div>
+            <div id="oversea-content" class="content"></div>
+        </div>
+        <div class="scroll-loading"></div>
+        <div class="villas">
+            <div class="section-title">
+                <h2>精品别墅 Private Villas</h2>
+                <div class="more">
+                    <span></span>
+                    <p>更多精品别墅</p>
+                </div>
+            </div>
+            <div id="villas-content" class="content"></div>
+        </div>
+        <div class="cruises">
+            <div class="section-title">
+                <h2>大航海时代 Luxury Expedition Cruises</h2>
+            </div>
+            <div id="cruises-content" class="content"></div>
+        </div>
+        <div class="vacation">
+            <div class="section-title">
+                <h2>国内短假 Domestic Vacation Packages</h2>
+                <div class="more">
+                    <span></span>
+                    <p>更多国内短假</p>
+                </div>
+            </div>
+            <div id="vacation-content" class="content"></div>
+        </div>
+        <div class="Hotel">
+            <div class="section-title">
+                <h2>精选酒店 Hotel & Resort Collections</h2>
+                <div class="more">
+                    <span></span>
+                    <p>更多酒店</p>
+                </div>
+            </div>
+            <div id="Hotel-content" class="content"></div>
+        </div>
+        <div class="magazine">
+            <div class="section-title">
+                <h2>《赞那度旅行人生》杂志 ZANADU Travel Life Magazine</h2>
+                <div class="more">
+                    <span></span>
+                    <p>更多杂志文章</p>
+                </div>
+            </div>
+            <div id="magazine-content" class="content"></div>
+        </div>
+    </div>
+</main>
+<div id="different-zanadu-video">
+    <video src='../public/images/index/zanadu-brand.mp4' width='100%' height='100%' controls preload  id='video-see'></video>
+</div>
+<footer>
+    <!--回到顶部-->
+    <div id="btn-totop" class="back-to-top-absolute">
+        <span class="arrow-totop"></span>
+        <span>返回顶部</span>
+    </div>
+    <div class="footer-top">
+        <div class="footertop-detailone">
+            <!--联系我们-->
+            <div class="contact">
+                <h4>联系我们</h4>
+                <ul>
+                    <li><span>出境旅游:</span><a href="">021-6330-0350</a></li>
+                    <li><span>国内短假/酒店：</span><a href="">010-8646-0021</a></li>
+                    <li><span>非工作时间：</span><a href="">13051357989</a></li>
+                    <li><span>广告合作：</span><a href="">ad@zanadu.cn</a></li>
+                    <li><a href="" class="last">info@zanadu.cn</a></li>
+                </ul>
+            </div>
+            <!--微信-->
+            <div class="wechat">
+                <h4>赞那度微信开通</h4>
+                <ul>
+                    <li>微信服务号</li>
+                    <li>赞那度旅行顾问</li>
+                    <li>旅行产品与服务</li>
+                </ul>
+                <ul>
+                    <li>微信订阅号</li>
+                    <li>赞那度旅行人生</li>
+                    <li>旅行体验 & 生活方式</li>
+                </ul>
+            </div>
+            <!--关于我们-->
+            <div class="about">
+                <h4>关于赞那度</h4>
+                <ul>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">团队介绍</a></li>
+                    <li><a href="">媒体报道</a></li>
+                    <li><a href="">工作机会</a></li>
+                </ul>
+            </div>
+            <!--技术分享-->
+            <div class="technology">
+                <h4>技术支持</h4>
+                <ul>
+                    <li><a href="">隐私政策</a></li>
+                    <li><a href="">服务条款</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">合作伙伴</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footertop-detailtwo">
+            <!--其他方注册图标-->
+            <div class="social">
+                <div class="social-icon">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+            <!--文本注册、切换-->
+            <div class="convert-register">
+                <span>欢迎来到赞那度，快来<a href="">注册</a>吧！</span>
+                <a href="">切换到手机版浏览</a>
+            </div>
+            <!--二维码-->
+            <div class="code"></div>
+        </div>
+    </div>
+    <!--云-->
+    <div class="cloud">
+        <div class="copy">
+            <p>北京赞那度国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00559</p>
+            <p>Copyright ZANADU赞那度 2011-2017 | <a href="">京ICP备 11041827号</a> | <a href="">京ICP证120221</a></p>
+        </div>
+        <div class="move-cloud-1"></div>
+        <div class="move-cloud-2"></div>
+    </div>
+    <div class="footer-bottom">
+        <div class="foot-logo"></div>
+    </div>
+</footer>
+<script type="text/javascript" src="plugin/DOMoperation.js"></script>
+<script type="text/javascript" src="javascript/model.js"></script>
+<script type="text/javascript" src="plugin/HBRToTop.js"></script>
+<script type="text/javascript" src="plugin/functions.js"></script>
+<script type="text/javascript" src="javascript/index.js"></script>
+<script type="text/javascript" src="javascript/common.js"></script>
+</body>
+</html>

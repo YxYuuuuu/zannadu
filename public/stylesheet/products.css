@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/*头部*/
+.header-top{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    top: -10px;
+    background: url(../images/register-login/bg-image-clouds-guest.jpg);
+}
+header .icon:before{
+    top: 52px;
+}
+.header-logo{
+    margin-top: 25px;
+}
+/*主体*/
+main{
+    background: #D3E9F6 url("../images/common/bg-image-clouds.jpg") no-repeat;padding: 60px 0;
+}
+.container{
+    width: 76%;margin: 0 auto;
+}
+.container>li{
+    position: relative;text-align: center;
+}
+.container>li>a{
+    width: 97%;height: 340px;display: inline-block;margin-bottom: 20px;
+}
+.signaturetrip{
+    background: url("../images/products/rectangle.jpg") 0 0 no-repeat;
+}
+.bundle{
+    background: url("../images/products/rectangle.jpg") 0 -340px no-repeat;
+}
+.small-luxury-group{
+    background: url("../images/products/rectangle.jpg") 0 -680px no-repeat;
+}
+.cruise{
+    background: url("../images/products/rectangle.jpg") 0 -1360px no-repeat;
+}
+.villa{
+    background: url("../images/products/rectangle.jpg") 0 -1020px no-repeat;
+}
+.hotel{
+    background: url("../images/products/rectangle.jpg") 0 -1700px no-repeat;
+}
+.minipackage{
+    background: url("../images/products/rectangle.jpg") 0 -2040px no-repeat;
+}
+.bespoke{
+    background: url("../images/products/rectangle.jpg") 0 -2380px no-repeat;
+}
+.container .caption{
+    width: 100%;height: 174px;position: absolute;bottom: 35px;left: 70px;line-height: 40px;
+}
+.caption h2{
+    font-size: 70px;color: white;font-weight: lighter;margin-bottom: 30px;text-align: left;
+}
+.caption p{
+    font-size: 30px;color: white;text-align: left;
+}
+.products-recommend{
+    width: 76%;height: 476px;margin: 0 auto;position: relative;
+}
+.products-recommend h2{
+    margin-left: 18px;font-weight: lighter;margin-bottom: 30px;
+}
+.recommendBox{
+    width: 100%;height: 340px;overflow: hidden;position: relative;
+}
+.recommendList{
+    width: 604%;height: 340px;display: flex;justify-content: space-between;position: absolute;top: 0;left: 0;
+}
+section {
+    margin: 0 10px 0 0;
+}
+section img{
+    height: 232px;
+}
+.products-recommend> span{
+    width: 54px;height: 54px;position: absolute;top: 45%;display: inline-block;cursor: pointer;border-radius: 50%;
+}
+.leftArrow{
+    left: -17px;background: url("../images/common/arrow.png") no-repeat -88px 0;
+}
+.leftArrow:hover{
+    background: url("../images/common/arrow.png") no-repeat -88px -66px;
+}
+.rightArrow{
+    right: -17px;background: url("../images/common/arrow.png") no-repeat -154px 0;
+}
+.rightArrow:hover{
+   background: url("../images/common/arrow.png") no-repeat -154px -66px;
+}
+.idotsBox{
+    text-align: center;margin-top: 20px;
+}
+.products-idot{
+    display: inline-block;  width: 15px;  height:15px;  border-radius: 50%;  margin-left: 10px;  background: rgba(0, 0, 0, .3);cursor: pointer;
+}
+.active{
+    background:white;
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*头部*/
+.header-top{
+    height: 120px;position: static;background: url(../images/register-login/bg-image-clouds-guest.jpg);
+}
+header .icon:before{
+    top: 52px;
+}
+.header-logo{
+    margin-top: 25px;
+}
+/*主体*/
+main {
+    width: 100%;height: 615px;background: #ececec;padding: 60px 0;
+}
+.registerBox, .loginBox{
+    width: 80%;display: flex;margin: 0 auto;
+}
+.feather{
+    width: 58.4%;height: 495px;background: url(../images/register-login/feather-register.jpg);background-size: cover;
+}
+.register-wrap, .login-wrap{
+    width: 41.6%;height: 495px;background: white;
+}
+.login, .register{
+    width: 87%;margin: 50px auto;
+}
+.register{
+
+}
+.register form, .login form{
+    width:100%;margin: 50px auto;display: inline-block;
+}
+div  .title {
+    width: 100%;  height: 100px;  border-bottom: 1px solid black;text-align: center;font-size: 26px;line-height: 100px;letter-spacing: 2px;
+}
+.inputbox{
+    text-align: center;
+}
+
+.inputbox input{
+    margin: 10px;width:60%;height: 35px;box-sizing: border-box;border-radius: 5px;padding-left: 5px;
+}
+form label{
+    font-size: 12px;
+}
+.inputbox input:focus{
+    outline: none;box-shadow: 0px 0px 3px 2px #d3d3d3 inset;border: none;
+}
+.save-link{
+    width: 61%;height: 19px; font-size: 14px;position: relative;left: 75px;margin-left: 6%;
+}
+.login .save-link a{
+    position: absolute;right: 0;
+}
+.save-link a{
+    font-size: 12px;color: black;text-decoration: none;
+}
+.save-link a:hover{
+    text-decoration: underline;
+}
+.register .save-link a{
+    position: absolute;left: 0;
+}
+.btn{
+    width: 60%;height: 40px;font-size: 16px;border: none;letter-spacing: 2px;border-radius: 5px;cursor: pointer;background: black;color: white;margin: 20px 0 0 25%;
+}

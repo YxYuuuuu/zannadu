@@ -1,0 +1,13 @@
+.header-top{
+    height: 120px;position: static;background: url(../images/register-login/bg-image-clouds-guest.jpg);
+}
+header .icon:before{
+    top: 52px;
+}
+.header-logo{
+    margin-top: 25px;
+}
+
+main{
+    width: 100%;height: 2000px;background: #D3E9F6 url("../images/common/bg-image-clouds.jpg") no-repeat;padding: 60px 0;
+}
